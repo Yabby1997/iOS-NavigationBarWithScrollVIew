@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             appearance.configureWithTransparentBackground()
             appearance.backgroundColor = .systemBackground
             appearance.titleTextAttributes = [
-                .foregroundColor: UIColor.label,
+                .foregroundColor: UIColor.label.withAlphaComponent(0.0),
                 .font: UIFont.systemFont(ofSize: 25, weight: .bold),
             ]
             return appearance
